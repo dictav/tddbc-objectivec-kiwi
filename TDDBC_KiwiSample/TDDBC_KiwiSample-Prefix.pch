@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TDDBC_KiwiSample' target in the 'TDDBC_KiwiSample' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
