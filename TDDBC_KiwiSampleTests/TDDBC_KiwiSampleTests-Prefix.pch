@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TDDBC_KiwiSampleTests' target in the 'TDDBC_KiwiSampleTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

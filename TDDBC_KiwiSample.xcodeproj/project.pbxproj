@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1880E29226DE4EB28B42B667 /* libPods-TDDBC_KiwiSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43BD79C2D954B55A6A0C4B2 /* libPods-TDDBC_KiwiSampleTests.a */; };
 		A916DC58173F2A0200285986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916DC57173F2A0200285986 /* Foundation.framework */; };
 		A916DC5B173F2A0200285986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A916DC5A173F2A0200285986 /* main.m */; };
 		A916DC5F173F2A0200285986 /* TDDBC_KiwiSample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A916DC5E173F2A0200285986 /* TDDBC_KiwiSample.1 */; };
+		A916DC6C173F2A2300285986 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916DC6B173F2A2300285986 /* SenTestingKit.framework */; };
+		A916DC6E173F2A2300285986 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916DC6D173F2A2300285986 /* Cocoa.framework */; };
+		A916DC78173F2A2300285986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A916DC76173F2A2300285986 /* InfoPlist.strings */; };
+		A916DC82173F2A6200285986 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = A916DC81173F2A6200285986 /* FizzBuzz.m */; };
+		A916DC83173F2AB900285986 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = A916DC81173F2A6200285986 /* FizzBuzz.m */; };
+		A916DC85173F2D6800285986 /* FizzBuzzSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A916DC84173F2D6800285986 /* FizzBuzzSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +33,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E0079524F444284B9E85642 /* Pods-TDDBC_KiwiSampleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDDBC_KiwiSampleTests.xcconfig"; path = "Pods/Pods-TDDBC_KiwiSampleTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		A916DC54173F2A0200285986 /* TDDBC_KiwiSample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TDDBC_KiwiSample; sourceTree = BUILT_PRODUCTS_DIR; };
 		A916DC57173F2A0200285986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A916DC5A173F2A0200285986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A916DC5D173F2A0200285986 /* TDDBC_KiwiSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDBC_KiwiSample-Prefix.pch"; sourceTree = "<group>"; };
 		A916DC5E173F2A0200285986 /* TDDBC_KiwiSample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TDDBC_KiwiSample.1; sourceTree = "<group>"; };
+		A916DC6A173F2A2300285986 /* TDDBC_KiwiSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDBC_KiwiSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A916DC6B173F2A2300285986 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A916DC6D173F2A2300285986 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A916DC70173F2A2300285986 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A916DC71173F2A2300285986 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A916DC72173F2A2300285986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A916DC75173F2A2300285986 /* TDDBC_KiwiSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TDDBC_KiwiSampleTests-Info.plist"; sourceTree = "<group>"; };
+		A916DC77173F2A2300285986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A916DC7C173F2A2300285986 /* TDDBC_KiwiSampleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDDBC_KiwiSampleTests-Prefix.pch"; sourceTree = "<group>"; };
+		A916DC80173F2A6200285986 /* FizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
+		A916DC81173F2A6200285986 /* FizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
+		A916DC84173F2D6800285986 /* FizzBuzzSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzSpec.m; sourceTree = "<group>"; };
+		D43BD79C2D954B55A6A0C4B2 /* libPods-TDDBC_KiwiSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDDBC_KiwiSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A916DC66173F2A2300285986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A916DC6C173F2A2300285986 /* SenTestingKit.framework in Frameworks */,
+				A916DC6E173F2A2300285986 /* Cocoa.framework in Frameworks */,
+				1880E29226DE4EB28B42B667 /* libPods-TDDBC_KiwiSampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,8 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				A916DC59173F2A0200285986 /* TDDBC_KiwiSample */,
+				A916DC73173F2A2300285986 /* TDDBC_KiwiSampleTests */,
 				A916DC56173F2A0200285986 /* Frameworks */,
 				A916DC55173F2A0200285986 /* Products */,
+				2E0079524F444284B9E85642 /* Pods-TDDBC_KiwiSampleTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A916DC54173F2A0200285986 /* TDDBC_KiwiSample */,
+				A916DC6A173F2A2300285986 /* TDDBC_KiwiSampleTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				A916DC57173F2A0200285986 /* Foundation.framework */,
+				A916DC6B173F2A2300285986 /* SenTestingKit.framework */,
+				A916DC6D173F2A2300285986 /* Cocoa.framework */,
+				A916DC6F173F2A2300285986 /* Other Frameworks */,
+				D43BD79C2D954B55A6A0C4B2 /* libPods-TDDBC_KiwiSampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,6 +114,8 @@
 				A916DC5A173F2A0200285986 /* main.m */,
 				A916DC5E173F2A0200285986 /* TDDBC_KiwiSample.1 */,
 				A916DC5C173F2A0200285986 /* Supporting Files */,
+				A916DC80173F2A6200285986 /* FizzBuzz.h */,
+				A916DC81173F2A6200285986 /* FizzBuzz.m */,
 			);
 			path = TDDBC_KiwiSample;
 			sourceTree = "<group>";
@@ -84,6 +124,35 @@
 			isa = PBXGroup;
 			children = (
 				A916DC5D173F2A0200285986 /* TDDBC_KiwiSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A916DC6F173F2A2300285986 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A916DC70173F2A2300285986 /* AppKit.framework */,
+				A916DC71173F2A2300285986 /* CoreData.framework */,
+				A916DC72173F2A2300285986 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A916DC73173F2A2300285986 /* TDDBC_KiwiSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A916DC74173F2A2300285986 /* Supporting Files */,
+				A916DC84173F2D6800285986 /* FizzBuzzSpec.m */,
+			);
+			path = TDDBC_KiwiSampleTests;
+			sourceTree = "<group>";
+		};
+		A916DC74173F2A2300285986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A916DC75173F2A2300285986 /* TDDBC_KiwiSampleTests-Info.plist */,
+				A916DC76173F2A2300285986 /* InfoPlist.strings */,
+				A916DC7C173F2A2300285986 /* TDDBC_KiwiSampleTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +177,26 @@
 			productReference = A916DC54173F2A0200285986 /* TDDBC_KiwiSample */;
 			productType = "com.apple.product-type.tool";
 		};
+		A916DC69173F2A2300285986 /* TDDBC_KiwiSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A916DC7D173F2A2300285986 /* Build configuration list for PBXNativeTarget "TDDBC_KiwiSampleTests" */;
+			buildPhases = (
+				F6E4B363F8B54D4983B8877C /* Check Pods Manifest.lock */,
+				A916DC65173F2A2300285986 /* Sources */,
+				A916DC66173F2A2300285986 /* Frameworks */,
+				A916DC67173F2A2300285986 /* Resources */,
+				A916DC68173F2A2300285986 /* ShellScript */,
+				671D86C37E714F66B49503C3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDBC_KiwiSampleTests;
+			productName = TDDBC_KiwiSampleTests;
+			productReference = A916DC6A173F2A2300285986 /* TDDBC_KiwiSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,9 +219,65 @@
 			projectRoot = "";
 			targets = (
 				A916DC53173F2A0200285986 /* TDDBC_KiwiSample */,
+				A916DC69173F2A2300285986 /* TDDBC_KiwiSampleTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A916DC67173F2A2300285986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A916DC78173F2A2300285986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		671D86C37E714F66B49503C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TDDBC_KiwiSampleTests-resources.sh\"\n";
+		};
+		A916DC68173F2A2300285986 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		F6E4B363F8B54D4983B8877C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A916DC50173F2A0200285986 /* Sources */ = {
@@ -140,10 +285,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				A916DC5B173F2A0200285986 /* main.m in Sources */,
+				A916DC82173F2A6200285986 /* FizzBuzz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A916DC65173F2A2300285986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A916DC83173F2AB900285986 /* FizzBuzz.m in Sources */,
+				A916DC85173F2D6800285986 /* FizzBuzzSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A916DC76173F2A2300285986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A916DC77173F2A2300285986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A916DC60173F2A0200285986 /* Debug */ = {
@@ -223,6 +389,34 @@
 			};
 			name = Release;
 		};
+		A916DC7E173F2A2300285986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0079524F444284B9E85642 /* Pods-TDDBC_KiwiSampleTests.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDBC_KiwiSampleTests/TDDBC_KiwiSampleTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDBC_KiwiSampleTests/TDDBC_KiwiSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A916DC7F173F2A2300285986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0079524F444284B9E85642 /* Pods-TDDBC_KiwiSampleTests.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDDBC_KiwiSampleTests/TDDBC_KiwiSampleTests-Prefix.pch";
+				INFOPLIST_FILE = "TDDBC_KiwiSampleTests/TDDBC_KiwiSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -242,6 +436,16 @@
 				A916DC64173F2A0200285986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A916DC7D173F2A2300285986 /* Build configuration list for PBXNativeTarget "TDDBC_KiwiSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A916DC7E173F2A2300285986 /* Debug */,
+				A916DC7F173F2A2300285986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
